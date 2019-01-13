@@ -1,4 +1,3 @@
-"""MC2-P1: Market simulator."""
 
 from datetime import datetime, timedelta
 import pandas as pd
@@ -84,9 +83,7 @@ def compute_portfolio_stats(prices, rfr, sf):
 
 
 def test_code():
-    # this is a helper function you can use to test your code
-    # note that during autograding his function will not be called.
-    # Define input parameters
+    
 
     of = "./orders/ordersQ.csv"
     sv = 100000
@@ -99,8 +96,7 @@ def test_code():
     else:
         "warning, code did not return a DataFrame"
 
-    # Get portfolio stats
-    # Here we just fake the data. you should use your code from previous assignments.
+   
 
     normalized_port_val = portvals/portvals[0]
    # print portvals
